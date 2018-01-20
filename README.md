@@ -6,7 +6,7 @@ Finds all the possible combinations of numbers for solving a rullo puzzle.
 # Getting Started
 Use the GNU gcc compiler for main.c
 
-gcc main.cpp -o rullo
+gcc main.c -o rullo
 
 # Instructions
 There are two arguments you need to give the program;
