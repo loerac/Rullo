@@ -1,21 +1,27 @@
 # Rullo
-Finds all the possible combinations of numbers for solving a rullo puzzle.
-
-# UNDER CONSTRUCTION: CURRENTLY IN PROGRESS
+Finds all the possible combinations of a set from a rullo puzzle using combinatorics. Combination function was given from http://rosettacode.org/wiki/Combinations#C.2B.2B
 
 # Getting Started
-Use the GNU gcc compiler for main.c
+Use the GNU g++ compiler for main.cpp
 
-gcc main.c -o rullo
+g++ main.c -o rullo
 
 # Instructions
 There are two arguments you need to give the program;
 
-Input numbers: all the numbers given in the box 
+Rullo number: the number outside of the row/column
 
-Output number: the number outside of the box
+Set row/column: all the numbers given in the row/column
 
 # Example
-./rullo [output_number] [input_numbers]
+./rullo [rullo_number] [set_row_columns]
 
-./rullo 10 1 3 5 7 9
+### Input
+./rullo 10 1 3 5 7 9 10
+
+### Output
+Found Combination: [ 10 ]
+
+Found Combination: [ 1 9 ]
+
+Found Combination: [ 3 7 ]
