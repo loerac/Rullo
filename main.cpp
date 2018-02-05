@@ -75,10 +75,6 @@ void insertFirst(int value) {
 }
 
 void deleteFirst() { head = head->next; }
-/*    struct node *temp= head;
-    temp = temp->next;
-    head = temp;
-}*/
 
 void printList() {
     struct node *temp = head;
