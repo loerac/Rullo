@@ -1,6 +1,9 @@
 # Rullo
 Finds all the possible combinations of a set from a rullo puzzle using combinatorics. Combination function was given from http://rosettacode.org/wiki/Combinations#C.2B.2B
 
+# Currently working on
+Finding a better way to enter the set
+
 # Getting Started
 Use the GNU g++ compiler for main.cpp
 
