@@ -6,9 +6,9 @@ Finding a better way to enter the set
 
 # Getting Started
 Use the GNU g++ compiler for main.cpp
-
+```
 g++ main.c -o rullo
-
+```
 # Instructions
 There are two arguments you need to give the program;
 
@@ -17,14 +17,19 @@ Rullo number: the number outside of the row/column
 Set row/column: all the numbers given in the row/column
 
 # Example
-./rullo [rullo_number] [set_row_columns]
-
+```
+ $ ./rullo [rullo_number] [set_row_columns]
+```
 ### Input
-./rullo 10 1 3 5 7 9 10
+```
+ ./rullo 10 7 3 1 8 9 10
+```
 
 ### Output
-Found Combination: [ 10 ]
+```
+ Found Combination: [ 10 ]
 
-Found Combination: [ 1 9 ]
+ Found Combination: [ 1 9 ]
 
-Found Combination: [ 3 7 ]
+ Found Combination: [ 3 7 ]
+```
