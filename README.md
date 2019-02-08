@@ -7,7 +7,7 @@ Finding a better way to enter the set
 # Getting Started
 Use the GNU g++ compiler for main.cpp
 ```
-g++ main.c -o rullo
+gcc main.c -o rullo
 ```
 # Instructions
 There are two arguments you need to give the program;
